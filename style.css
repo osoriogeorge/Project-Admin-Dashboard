@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 4px;
+}
+
+.container div {
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+}
+
+.header {
+  background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 2 / -1;
+}
+.logo {
+  justify-self: start;
+}
+.menu {
+  align-self: center;
+}
+.menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.menu ul,
+.menu li {
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.sidebar {
+  background-color: #56bce4;
+  display: grid;
+  gap: 50px;
+  grid-row: 1/4;
+}
+.side-content,
+.photo {
+  display: grid;
+  align-items: center;
+  list-style-type: none;
+}
+
+.sidebar .photo {
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: normal;
+  border-radius: 10px;
+}
+
+.sidebar .side-content {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.nav {
+  background-color: #c50208;
+  grid-column: 2 / -1;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav ul li {
+  font-size: 16px;
+  text-transform: uppercase;
+  list-style: none;
+  text-align: center;
+}
+.article-section {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.article {
+  background-color: #bccbde;
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-template-rows: repeat(3, 250px);
+  grid-column: 1/2;
+  grid-gap: 15px;
+}
+.article-aside {
+  background-color: #bccbde;
+  display: grid;
+  grid-template-columns: 1fr, 250px;
+  grid-template-rows: 1, 250px;
+  grid-gap: 15px;
+}
+
+.article p {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: white;
+  text-align: left;
+}
+
+.article .card {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  height: 200px;
+}
+.article-aside .card {
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  height: 200px;
+}
+
+.card p {
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.card .title {
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #393f4d;
+  grid-column: 1 / -1;
+}
+
+.footer p {
+  font-size: 13px;
+  font-weight: normal;
+}
