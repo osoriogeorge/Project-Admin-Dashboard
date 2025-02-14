@@ -6,122 +6,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Holy Grail Mockup</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
     <div class="container">
-      <div class="header">
-        <div class="logo">Search icon</div>
-        <div class="menu">
-          <ul>
-            <li>link one</li>
-            <li>link two</li>
-            <li>link three</li>
-            <li>link four</li>
-          </ul>
-        </div>
-      </div>
+      <header>
+        <div class="header-grid">
+          <div class="search">
+            <input type="text" placeholder="Search..." />
+            <button>Search</button>
+          </div>
 
-      <div class="sidebar">
-        <div class="photo">
-          <p>DASHBOARD</p>
-        </div>
+          <div class="profile">
+            <img src="curious-george-thmb.jpg" alt="Profile Picture" />
+            <h3>Morgan Oakley</h3>
+            <p>@morgan</p>
+          </div>
 
-        <ul class="side-content">
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li>Communities</li>
-        </ul>
-        <ul class="side-content">
-          <li>Settings</li>
-          <li>Support</li>
-          <li>Privacy</li>
-        </ul>
-      </div>
+          <div class="user-actions">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
 
-      <div class="nav">
-        <ul>
-          <li>Latest Articles</li>
-          <li>Most Views</li>
-          <li>Featured</li>
-        </ul>
-      </div>
-      <div class="article-section">
-        <div class="article">
-          <div class="card">
-            <p class="title">Article Title</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
-          </div>
-          <div class="card">
-            <p class="title">Article Title</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
-          </div>
-          <div class="card">
-            <p class="title">Article Title</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
-          </div>
-          <div class="card">
-            <p class="title">Article Title</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
-          </div>
-          <div class="card">
-            <p class="title">Article Title</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
-          </div>
-          <div class="card">
-            <p class="title">Article Title</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
+          <div class="greeting">
+            <img src="curious-george-thmb.jpg" alt="Profile Picture" />
+            <h3>Hi there,</h3>
+            <p>@morgan</p>
           </div>
         </div>
-        <div class="article-aside">
-          <div class="card">
-            <p class="title">Article Title</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
-          </div>
-          <div class="card">
-            <p class="title">Article Title</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
-            </p>
-          </div>
-        </div>
-      </div>
+      </header>
 
-      <div class="footer">
-        <p>Copyright © The Odin Project 2021</p>
-      </div>
+      <aside class="sidebar">
+        <div class="sidebar-grid">
+          <img src="#" alt="Logo" />
+          <nav>
+            <ul>
+              <li><i class="fas fa-home"></i><a href="#">Home</a></li>
+              <li><i class="far fa-smile"></i><a href="#">Profile</a></li>
+              <li><i class="fas fa-envelope"></i><a href="#">Messages</a></li>
+              <li><i class="fas fa-history"></i><a href="#">History</a></li>
+              <li><i class="fas fa-tasks"></i><a href="#">Tasks</a></li>
+              <li><i class="fas fa-users"></i><a href="#">Communities</a></li>
+            </ul>
+            <ul>
+              <li><i class="fas fa-cog"></i><a href="#">Settings</a></li>
+              <li>
+                <i class="fas fa-question-circle"></i><a href="#">Support</a>
+              </li>
+              <li><i class="fas fa-shield-alt"></i><a href="#">Privacy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section class="projects">
+          <h2>Your Projects</h2>
+          <div class="project-list">
+            <div class="project-item">
+              <h3>Super Cool Project</h3>
+              <p>
+                Some quick example text to build on the Super Cool Project and
+                make up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="project-item">
+              <h3>Less Cool Project</h3>
+              <p>
+                Some quick example text to build on the Less Cool Project and
+                make up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="project-item">
+              <h3>Impassible App</h3>
+              <p>
+                Some quick example text to build on the Impassible App and make
+                up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="project-item">
+              <h3>Easy Peasy App</h3>
+              <p>
+                Some quick example text to build on the Easy Peasy App and make
+                up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="project-item">
+              <h3>Ad Blocker</h3>
+              <p>
+                Some quick example text to build on the Ad Blocker and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <div class="project-item">
+              <h3>Money Maker</h3>
+              <p>
+                Some quick example text to build on the Money Maker and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="announcements">
+          <h2>Announcements</h2>
+          <div class="announcements-list">
+            <div class="announcement">
+              <h3>Site Update</h3>
+              <p>
+                Some quick example text to build on the Site Update and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+
+            <div class="announcement">
+              <h3>Site Maintenance</h3>
+              <p>
+                Some quick example text to build on the Site Update and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+
+            <div class="announcement">
+              <h3>Upcoming Event</h3>
+              <p>
+                Some quick example text to build on the Upcoming Event and make
+                up the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="trending">
+          <h2>Trending</h2>
+          <div class="trending-list">
+            <div class="trending-item">
+              <img src="profile.jpg" alt="Profile Picture" />
+              <p>@teagan</p>
+            </div>
+            <div class="trending-item">
+              <img src="profile.jpg" alt="Profile Picture" />
+              <p>@max</p>
+            </div>
+            <div class="trending-item">
+              <img src="profile.jpg" alt="Profile Picture" />
+              <p>@kendall</p>
+            </div>
+            <div class="trending-item">
+              <img src="profile.jpg" alt="Profile Picture" />
+              <p>@daniel</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Copyright © The Odin Project 2025</p>
+      </footer>
     </div>
   </body>
 </html>
