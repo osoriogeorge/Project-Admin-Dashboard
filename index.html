@@ -17,6 +17,7 @@
 
   <body>
     <div class="container">
+      <!-- HEADER -->
       <header>
         <div class="header-grid">
           <div class="search">
@@ -44,9 +45,18 @@
         </div>
       </header>
 
+      <!-- SIDEBAR -->
       <aside class="sidebar">
         <div class="sidebar-grid">
-          <img src="#" alt="Logo" />
+          <div class="logo">
+            <div class="logo-icon">
+              <div class="square"></div>
+              <div class="bar bar-1"></div>
+              <div class="bar bar-2"></div>
+              <div class="bar bar-3"></div>
+            </div>
+            <span class="logo-text">Dashboard</span>
+          </div>
           <nav>
             <ul>
               <li><i class="fas fa-home"></i><a href="#">Home</a></li>
@@ -67,7 +77,9 @@
         </div>
       </aside>
 
+      <!-- CONTENIDO PRINCIPAL -->
       <main class="content">
+        <!-- PROYECTOS -->
         <section class="projects">
           <h2>Your Projects</h2>
           <div class="project-list">
@@ -116,58 +128,64 @@
           </div>
         </section>
 
-        <section class="announcements">
+        <!-- ANUNCIOS Y TRENDING -->
+        <div class="right-sidebar">
+          <!-- ANUNCIOS -->
           <h2>Announcements</h2>
-          <div class="announcements-list">
-            <div class="announcement">
-              <h3>Site Update</h3>
-              <p>
-                Some quick example text to build on the Site Update and make up
-                the bulk of the card's content.
-              </p>
-            </div>
+          <section class="announcements">
+            <div class="announcements-list">
+              <div class="announcement">
+                <h3>Site Update</h3>
+                <p>
+                  Some quick example text to build on the Site Update and make
+                  up the bulk of the card's content.
+                </p>
+              </div>
 
-            <div class="announcement">
-              <h3>Site Maintenance</h3>
-              <p>
-                Some quick example text to build on the Site Update and make up
-                the bulk of the card's content.
-              </p>
-            </div>
+              <div class="announcement">
+                <h3>Site Maintenance</h3>
+                <p>
+                  Some quick example text to build on the Site Update and make
+                  up the bulk of the card's content.
+                </p>
+              </div>
 
-            <div class="announcement">
-              <h3>Upcoming Event</h3>
-              <p>
-                Some quick example text to build on the Upcoming Event and make
-                up the bulk of the card's content.
-              </p>
+              <div class="announcement">
+                <h3>Upcoming Event</h3>
+                <p>
+                  Some quick example text to build on the Upcoming Event and
+                  make up the bulk of the card's content.
+                </p>
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section class="trending">
+          <!-- TRENDING -->
           <h2>Trending</h2>
-          <div class="trending-list">
-            <div class="trending-item">
-              <img src="profile.jpg" alt="Profile Picture" />
-              <p>@teagan</p>
+          <section class="trending">
+            <div class="trending-list">
+              <div class="trending-item">
+                <img src="profile.jpg" alt="Profile Picture" />
+                <p>@teagan</p>
+              </div>
+              <div class="trending-item">
+                <img src="profile.jpg" alt="Profile Picture" />
+                <p>@max</p>
+              </div>
+              <div class="trending-item">
+                <img src="profile.jpg" alt="Profile Picture" />
+                <p>@kendall</p>
+              </div>
+              <div class="trending-item">
+                <img src="profile.jpg" alt="Profile Picture" />
+                <p>@daniel</p>
+              </div>
             </div>
-            <div class="trending-item">
-              <img src="profile.jpg" alt="Profile Picture" />
-              <p>@max</p>
-            </div>
-            <div class="trending-item">
-              <img src="profile.jpg" alt="Profile Picture" />
-              <p>@kendall</p>
-            </div>
-            <div class="trending-item">
-              <img src="profile.jpg" alt="Profile Picture" />
-              <p>@daniel</p>
-            </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </main>
 
+      <!-- FOOTER -->
       <footer class="footer">
         <p>Copyright © The Odin Project 2025</p>
       </footer>
